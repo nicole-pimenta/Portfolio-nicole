@@ -33,7 +33,7 @@ export const AboutMeSection = styled.section`
   gap: 20px;
 
   @media only screen and (max-width: 600px) {
-    width: 100%;
+    width: 90%;
     line-height: 2.5rem;
     height: 46%;
     padding: 20px;
