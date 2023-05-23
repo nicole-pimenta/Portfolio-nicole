@@ -11,7 +11,7 @@ export const StyledHeader = styled.header`
   -moz-box-shadow: 10px 10px 18px -7px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 18px -7px rgba(0, 0, 0, 0.75);
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     height: 100%;
   }
 `;
@@ -46,7 +46,7 @@ export const StyledNavBar = styled.nav`
     cursor: pointer;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     ul {
       display: flex;
       flex-direction: column;

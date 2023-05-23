@@ -64,10 +64,10 @@ body {
   
   
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     top:5%;
     height: 95%;
-   
+   background-color: blue;
   }
 }
 

@@ -10,7 +10,7 @@ export const StyledDivFlex = styled.div`
   align-items: center;
   gap: 2.25rem;
 
-  @media only screen and (max-width: 913px) {
+  @media only screen and (max-width: 1024px) {
     flex-direction: column;
     justify-content: center;
   }
@@ -28,7 +28,7 @@ export const StyledHeadline = styled.section`
   gap: 2rem;
   width: 80%;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     gap: 1rem;
     width: 100%;
 
@@ -50,7 +50,7 @@ export const StyledImageProfile = styled.img`
   height: 600px;
   margin-top: 20px;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     height: 180px;
   }
 `;
