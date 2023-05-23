@@ -15,6 +15,8 @@ import {
   StyledTypedContainer,
 } from "./style";
 
+import cv from "../../assets/_CV_Fullstack_NicolePimenta.pdf";
+
 const Home = () => {
   const el = useRef(null);
   const typed = useRef(null);
@@ -88,11 +90,7 @@ const Home = () => {
 
               <li>
                 {" "}
-                <a
-                  href="https://www.linkedin.com/in/nicole-pimenta/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href={cv} target="_blank" rel="noreferrer">
                   <BsEnvelopePaperFill size={50} color="#343a40" />
                 </a>
               </li>
