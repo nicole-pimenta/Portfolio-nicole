@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
 import { BsEnvelopePaperFill, BsGithub, BsLinkedin } from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
 import Typed from "typed.js";
 import handShake from "../../assets/handshake.gif";
 import profile from "../../assets/profile.jpg";
@@ -75,16 +74,6 @@ const Home = () => {
                   rel="noreferrer"
                 >
                   <BsGithub size={50} color="#343a40" />
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="mailto:nicole.pimenta.dev@gmail.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <MdEmail size={50} color="#343a40" />
                 </a>
               </li>
 
