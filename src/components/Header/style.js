@@ -25,6 +25,7 @@ export const ContainerHeader = styled.div`
 
 export const StyledNavBar = styled.nav`
   width: 50%;
+  padding: 20px;
 
   ul {
     display: flex;

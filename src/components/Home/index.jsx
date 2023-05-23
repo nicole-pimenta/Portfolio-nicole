@@ -22,7 +22,7 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Desenvolvedora front-end",
+        "Desenvolvedora full stack",
         "Adoro aprender coisas novas...",
         "Transformando sites em soluções digitais!",
       ],

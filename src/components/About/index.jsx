@@ -23,7 +23,6 @@ const About = () => {
         <StyledDivFlex>
           <AboutMeSection>
             <StyledText1>Sobre mim</StyledText1>
-
             <p>
               Sou Recifense mas atualmente resido em São Paulo, como
               desenvolvedora sou apaixonada por agregar valor aos negócios por
@@ -43,6 +42,7 @@ const About = () => {
               ingressar no mundo de tecnologia.
             </p>
           </AboutMeSection>
+
           <AboutMeSection>
             <StyledText1>Habilidades</StyledText1>
             <SkillsList>

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SectionAboutMe = styled.section`
   height: 90vh;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     height: 100vh;
   }
 `;
@@ -11,11 +11,12 @@ export const SectionAboutMe = styled.section`
 export const StyledDivFlex = styled.div`
   height: 100%;
   display: flex;
+
   align-items: center;
   justify-content: center;
   gap: 2.25rem;
 
-  @media only screen and (max-width: 913px) {
+  @media only screen and (max-width: 1024px) {
     flex-direction: column;
     gap: 1rem;
   }
@@ -32,7 +33,7 @@ export const AboutMeSection = styled.section`
   align-items: center;
   gap: 20px;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     width: 90%;
     line-height: 2.5rem;
     height: 46%;
@@ -60,7 +61,7 @@ export const SkillsList = styled.ul`
     width: 5.5rem;
   }
 
-  @media only screen and (max-width: 913px) {
+  @media only screen and (max-width: 1024px) {
     justify-content: center;
     gap: 20px;
     height: 80%;

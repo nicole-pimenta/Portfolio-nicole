@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const SectionHome = styled.section`
   height: 90vh;
+
+  @media only screen and (max-width: 1024px) {
+    height: 80vh;
+  }
 `;
 
 export const StyledDivFlex = styled.div`
@@ -51,7 +55,7 @@ export const StyledImageProfile = styled.img`
   margin-top: 20px;
 
   @media only screen and (max-width: 1024px) {
-    height: 180px;
+    height: 200px;
   }
 `;
 
