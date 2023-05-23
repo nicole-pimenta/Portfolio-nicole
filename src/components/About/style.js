@@ -1,10 +1,7 @@
 import styled from "styled-components";
 
 export const SectionAboutMe = styled.section`
-  height: 65vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 90vh;
 
   @media only screen and (max-width: 600px) {
     height: 100vh;
@@ -12,20 +9,23 @@ export const SectionAboutMe = styled.section`
 `;
 
 export const StyledDivFlex = styled.div`
+  height: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
   gap: 2.25rem;
 
   @media only screen and (max-width: 913px) {
     flex-direction: column;
+    gap: 1rem;
   }
 `;
 
 export const AboutMeSection = styled.section`
-  width: 50%;
+  width: 45%;
   text-align: justify;
-  line-height: 1.3rem;
+  line-height: 2.3rem;
+  height: 80%;
 
   display: flex;
   flex-direction: column;
@@ -33,8 +33,11 @@ export const AboutMeSection = styled.section`
   gap: 20px;
 
   @media only screen and (max-width: 600px) {
-    width: 90%;
-    line-height: 1.5rem;
+    width: 100%;
+    line-height: 2.5rem;
+    height: 46%;
+    padding: 20px;
+    overflow: auto;
   }
 `;
 
@@ -67,8 +70,8 @@ export const SkillsList = styled.ul`
     }
 
     img {
-      height: 2.5rem;
-      width: 3.5rem;
+      height: 1.5rem;
+      width: 2.5rem;
     }
   }
 `;

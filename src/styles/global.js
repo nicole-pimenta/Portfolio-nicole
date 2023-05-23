@@ -48,21 +48,25 @@ button{
 }
 
 body {
- height: 100vh;
  font-family: "Raleway", sans-serif;
  background: var(--background-1);
-
 }
 
 .container {
   max-width: 76rem;
-  margin: 20px auto 20px auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  position: relative;
+  top:10%;
+  height: 90%;
+  margin: auto;
+  
+  
+  
 
   @media only screen and (max-width: 600px) {
- 
-   margin: 50px 0 130px 0;
+    top:5%;
+    height: 95%;
    
   }
 }

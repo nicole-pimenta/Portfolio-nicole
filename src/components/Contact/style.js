@@ -1,12 +1,10 @@
 import styled from "styled-components";
 
 export const SectionContact = styled.section`
-  height: 65vh;
-  margin-top: 150px;
+  height: 90vh;
 
   @media only screen and (max-width: 600px) {
-    height: 60vh;
-    margin-top: 15px;
+    height: 90vh;
   }
 `;
 
@@ -17,11 +15,18 @@ export const SectionContainer = styled.section`
   align-items: center;
   gap: 2.25rem;
 
+  margin-top: 5%;
+
   @media only screen and (max-width: 600px) {
-    gap: 1rem;
+    margin-top: 10%;
+
+    img {
+      width: 80%;
+    }
 
     p {
       width: 90%;
+
       font-size: var(--text-3);
     }
   }

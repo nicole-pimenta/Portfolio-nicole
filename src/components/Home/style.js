@@ -1,11 +1,7 @@
 import styled from "styled-components";
 
 export const SectionHome = styled.section`
-  height: 60vh;
-
-  @media only screen and (max-width: 913px) {
-    height: 80vh;
-  }
+  height: 90vh;
 `;
 
 export const StyledDivFlex = styled.div`
