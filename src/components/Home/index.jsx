@@ -12,6 +12,7 @@ import {
   StyledHeadline,
   StyledImageProfile,
   StyledTypedContainer,
+  StyledTypedText,
 } from "./style";
 
 import cv from "../../assets/_CV_Fullstack_NicolePimenta.pdf";
@@ -54,7 +55,7 @@ const Home = () => {
             <StyledTitle1>Nicole Pimenta</StyledTitle1>
 
             <StyledTypedContainer>
-              <StyledText1 ref={el} />
+              <StyledTypedText ref={el} />
             </StyledTypedContainer>
             <ContainerIcons>
               <li>

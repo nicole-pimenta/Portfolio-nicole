@@ -25,6 +25,15 @@ export const StyledGif = styled.img`
   width: 70px;
 `;
 
+export const StyledTypedText = styled.p`
+  font-family: "Finger Paint", cursive;
+  font-size: var(--text-1);
+  font-weight: 500;
+  line-height: 2.5rem;
+  color: var(--background-2);
+  text-align: center;
+`;
+
 export const StyledHeadline = styled.section`
   display: flex;
   flex-direction: column;

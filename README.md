@@ -1,44 +1,44 @@
-#<h1 align="center">Portfolio Nicole Pimenta - Front end developer</h1>
+#<h1 align="center">Portfolio Nicole Pimenta - Full stack developer</h1>
 
 <div align="center">
-<img src="" width="600px">
+<img src="./src/assets/portfolio.png" width="600px">
 
 </div> <br>
 
 <p align="center">
 <img src="https://img.shields.io/badge/vite-white?style=for-the-badge&logo=vite&logoColor=8B73FE"></img>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></img>
+<img src="https://img.shields.io/badge/react-white?style=for-the-badge&logo=vite&logoColor=8B73FE"></img>
+<img src="https://img.shields.io/badge/styled-components-white?style=for-the-badge&logo=vite&logoColor=8B73FE"></img>
 
 </p>
 
-## Technology Used 🛠️
+## Tecnologias Usadas 🛠️
 
-- [Vite](https://vitejs.dev) - Bundler
+- [Vite](https://vitejs.dev)
+- [React](https://react.dev/)
+- [Styled Components](https://styled-components.com/)
+- [React Icons](https://www.npmjs.com/package/react-icons)
+- [Typed.js](https://mattboldt.com/demos/typed-js/)
 
-- [AOS js](https://michalsnik.github.io/aos) - JS Library For Scroll Animation
-
-## Project Structure 📂
+## Estrutura do Projeto 📂
 
 ```
 ├── src
-│ ├── fonts
-│ ├── img
-│ ├── js
-│ ├── sass
-│ └── index.html
+│ ├── assets
+│ ├── components
+│ ├── pages
+│ ├── styles
+│ ├── App.jsx
+│ └── main.jsx
 ├── .gitignore
-├── .postcssrc
+├── index.html
 ├── .GUIDE.md
-├── LICENSE
 ├── package-lock.json
 ├── package.json
 ├── README.md
 └── vite.config.js
 ```
 
-## Sponsor 💛
+## 💛
 
-Give a ⭐ if you like this website!
 <br>
-
-<a href="https://www.buymeacoffee.com/zougari"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
