@@ -1,4 +1,4 @@
-#<h1 align="center">Portfolio Nicole Pimenta - Full stack developer</h1>
+<h1 align="center">Portfolio Nicole Pimenta - Full stack developer</h1>
 
 <div align="center">
 <img src="./src/assets/portfolio.png" width="600px">
