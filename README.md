@@ -3,8 +3,10 @@
 <div align="center">
 <img src="./src/assets/portfolio.png" width="600px">
 
-</div> <br>
+</div>
 Você poderá conferir a aplicação através da seguinte URL https://portfolio-nicole.vercel.app//
+
+ <br>
 
 <p align="center">
 <img src="https://img.shields.io/badge/vite-white?style=for-the-badge&logo=vite&logoColor=8B73FE"></img>
