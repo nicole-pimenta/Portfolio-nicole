@@ -30,15 +30,12 @@ const About = () => {
             grandes resultados.
           </p>
           <p>
-            {" "}
+            Atuo há 2 anos com desenvolvimento web front end, com sólidos
+            conhecimentos em HTML, CSS, Javascript, JQuery, React e TypeScript.
             Dedico-me a manter-me atualizada com as últimas tecnologias e
             tendências para fornecer as melhores soluções web , meu objetivo
             final é criar um software que seja amigável, resposível e impactante
             para atender as demandas dos clientes.
-          </p>
-          <p>
-            Além disso, tenho como missão de vida inspirar outras mulheres a
-            ingressar no mundo de tecnologia.
           </p>
         </div>
       </AboutMeSection>

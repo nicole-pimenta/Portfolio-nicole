@@ -47,7 +47,7 @@ export const SkillsSection = styled.section`
   height: 90%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 `;
 
@@ -57,7 +57,7 @@ export const SkillsList = styled.ul`
   align-items: center;
   justify-content: space-around;
   width: 90%;
-  height: 90%;
+  height: 80%;
 
   li {
     display: flex;
