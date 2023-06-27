@@ -1,12 +1,16 @@
 <h1 align="center">Portfolio Nicole Pimenta - Full stack developer</h1>
 
+<p>
+Você poderá conferir a aplicação através da seguinte URL <a>https://portfolio-nicole.vercel.app//</a>
+</p>
+<br>
+
 <div align="center">
 <img src="./src/assets/portfolio.png" width="600px">
 
 </div>
-Você poderá conferir a aplicação através da seguinte URL https://portfolio-nicole.vercel.app//
 
- <br>
+<br>
 
 <p align="center">
 <img src="https://img.shields.io/badge/vite-white?style=for-the-badge&logo=vite&logoColor=8B73FE"></img>
