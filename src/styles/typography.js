@@ -24,7 +24,7 @@ export const StyledText1 = styled.p`
   font-family: "Finger Paint", cursive;
   font-size: var(--text-1);
   font-weight: 500;
-  line-height: 2.5rem;
+  line-height: 1.5rem;
   color: var(--color-grey-1);
   text-align: center;
 `;

@@ -5,20 +5,17 @@ export const AboutContainer = styled.div`
   padding-left: 1rem;
   padding-right: 1rem;
   height: 80vh;
-
-  margin: 20px auto;
-
+  margin: 0 auto;
+  margin-top: 30px;
   display: flex;
-
   align-items: center;
   justify-content: center;
-  gap: 1.25rem;
 
   @media only screen and (max-width: 1024px) {
-    height: 95%;
     height: 100vh;
     flex-direction: column;
-    gap: 1rem;
+    justify-content: space-between;
+    gap: 2rem;
   }
 `;
 
@@ -76,10 +73,11 @@ export const SkillsList = styled.ul`
   @media only screen and (max-width: 1024px) {
     justify-content: center;
     gap: 20px;
-    height: 80%;
+    height: 100%;
+    width: 90%;
 
     li {
-      width: 45%;
+      width: 95%;
     }
 
     img {

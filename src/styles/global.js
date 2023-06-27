@@ -43,7 +43,7 @@ button{
   --title-2: 2.5rem;
   --title-3: 2rem;
   --text-1: 1.5rem;
-  --text-2: 1rem;
+  --text-2: 1.25rem;
   --text-3: 0.875rem;
 }
 

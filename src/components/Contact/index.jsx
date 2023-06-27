@@ -1,8 +1,8 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import ideaGif from "../../assets/idea.gif";
-import { StyledText1 } from "../../styles/typography";
-import { SectionContact, SectionContainer } from "./style";
+import { StyledText1, StyledText2 } from "../../styles/typography";
+import { ContactContainer, SectionContainer } from "./style";
 
 const Contact = () => {
   const el = useRef(null);
@@ -25,21 +25,19 @@ const Contact = () => {
   }, []);
 
   return (
-    <SectionContact id="contact">
-      <div className="container">
-        <StyledText1> Contato </StyledText1>
+    <ContactContainer id="contact">
+      <StyledText1> Contato </StyledText1>
 
-        <SectionContainer>
-          <StyledText1>Teve uma ideia? </StyledText1>
+      <SectionContainer>
+        <StyledText2>Teve uma ideia? Vamos tornar realidade !</StyledText2>
 
-          <img src={ideaGif} />
+        <img src={ideaGif} />
 
-          <p> Vamos tornar realidade ! Contacte me pelo: </p>
+        <StyledText2> Contacte me pelo: </StyledText2>
 
-          <StyledText1 ref={el} />
-        </SectionContainer>
-      </div>
-    </SectionContact>
+        <span ref={el} />
+      </SectionContainer>
+    </ContactContainer>
   );
 };
 
