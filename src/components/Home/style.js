@@ -1,20 +1,19 @@
 import styled from "styled-components";
 
-export const SectionHome = styled.section`
-  height: 90vh;
-
-  @media only screen and (max-width: 1024px) {
-    height: 80vh;
-  }
-`;
-
-export const StyledDivFlex = styled.div`
+export const HomeContainer = styled.div`
+  max-width: 76rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 80vh;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 2.25rem;
+  gap: 1rem;
 
   @media only screen and (max-width: 1024px) {
+    top: 5%;
+    height: 95%;
     flex-direction: column;
     justify-content: center;
   }
@@ -37,9 +36,11 @@ export const StyledTypedText = styled.p`
 export const StyledHeadline = styled.section`
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 2rem;
-  width: 80%;
+  gap: 1.5rem;
+  width: 55%;
+  height: 90%;
 
   @media only screen and (max-width: 1024px) {
     gap: 1rem;
@@ -58,10 +59,19 @@ export const StyledHeadline = styled.section`
   }
 `;
 
-export const StyledImageProfile = styled.img`
-  border-radius: 50%;
-  height: 600px;
-  margin-top: 20px;
+export const StyledImageProfile = styled.section`
+  width: 45%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    border-radius: 50%;
+    max-height: 100%;
+
+    max-width: 100%;
+  }
 
   @media only screen and (max-width: 1024px) {
     height: 200px;

@@ -5,9 +5,8 @@ import handShake from "../../assets/handshake.gif";
 import profile from "../../assets/profile.jpg";
 import { StyledText1, StyledTitle1 } from "../../styles/typography";
 import {
+  HomeContainer,
   ContainerIcons,
-  SectionHome,
-  StyledDivFlex,
   StyledGif,
   StyledHeadline,
   StyledImageProfile,
@@ -24,7 +23,7 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Desenvolvedora full stack",
+        "Desenvolvedora front end",
         "Adoro aprender coisas novas...",
         "Transformando sites em soluções digitais!",
       ],
@@ -42,55 +41,53 @@ const Home = () => {
   }, []);
 
   return (
-    <SectionHome id="home">
-      <div className="container">
-        <StyledDivFlex>
-          <StyledHeadline>
-            <StyledText1>
-              Olá !
-              <StyledGif src={handShake} align="center" />
-              Meu nome é
-            </StyledText1>
+    <HomeContainer id="home">
+      <StyledHeadline>
+        <StyledText1>
+          Olá !
+          <StyledGif src={handShake} align="center" />
+          Meu nome é
+        </StyledText1>
 
-            <StyledTitle1>Nicole Pimenta</StyledTitle1>
+        <StyledTitle1>Nicole Pimenta</StyledTitle1>
 
-            <StyledTypedContainer>
-              <StyledTypedText ref={el} />
-            </StyledTypedContainer>
-            <ContainerIcons>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/nicole-pimenta/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <BsLinkedin size={50} color="#343a40" />
-                </a>
-              </li>
+        <StyledTypedContainer>
+          <StyledTypedText ref={el} />
+        </StyledTypedContainer>
+        <ContainerIcons>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/nicole-pimenta/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsLinkedin size={50} color="#343a40" />
+            </a>
+          </li>
 
-              <li>
-                <a
-                  href="https://github.com/nicole-pimenta"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <BsGithub size={50} color="#343a40" />
-                </a>
-              </li>
+          <li>
+            <a
+              href="https://github.com/nicole-pimenta"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub size={50} color="#343a40" />
+            </a>
+          </li>
 
-              <li>
-                {" "}
-                <a href={cv} target="_blank" rel="noreferrer">
-                  <BsEnvelopePaperFill size={50} color="#343a40" />
-                </a>
-              </li>
-            </ContainerIcons>
-          </StyledHeadline>
+          <li>
+            {" "}
+            <a href={cv} target="_blank" rel="noreferrer">
+              <BsEnvelopePaperFill size={50} color="#343a40" />
+            </a>
+          </li>
+        </ContainerIcons>
+      </StyledHeadline>
 
-          <StyledImageProfile src={profile} alt="imagem profile Nicole" />
-        </StyledDivFlex>
-      </div>
-    </SectionHome>
+      <StyledImageProfile>
+        <img src={profile} alt="imagem profile Nicole" />
+      </StyledImageProfile>
+    </HomeContainer>
   );
 };
 
