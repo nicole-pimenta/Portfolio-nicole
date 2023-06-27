@@ -1,38 +1,41 @@
 import styled from "styled-components";
 
-export const SectionAboutMe = styled.section`
-  height: 90vh;
+export const AboutContainer = styled.div`
+  max-width: 76rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 80vh;
 
-  @media only screen and (max-width: 1024px) {
-    height: 100vh;
-  }
-`;
+  margin: 20px auto;
 
-export const StyledDivFlex = styled.div`
-  height: 100%;
   display: flex;
 
   align-items: center;
   justify-content: center;
-  gap: 2.25rem;
+  gap: 1.25rem;
 
   @media only screen and (max-width: 1024px) {
+    height: 95%;
+    height: 100vh;
     flex-direction: column;
     gap: 1rem;
   }
 `;
 
 export const AboutMeSection = styled.section`
-  width: 45%;
-  text-align: justify;
-  line-height: 2.3rem;
-  height: 80%;
-
+  width: 50%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  justify-content: space-between;
 
+  div {
+    padding: 20px;
+    text-align: justify;
+    line-height: 2rem;
+    height: 95%;
+  }
   @media only screen and (max-width: 1024px) {
     width: 90%;
     line-height: 2.5rem;
@@ -42,14 +45,23 @@ export const AboutMeSection = styled.section`
   }
 `;
 
+export const SkillsSection = styled.section`
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+`;
+
 export const SkillsList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  width: 100%;
-  height: 60%;
-  gap: 20px;
+  width: 90%;
+  height: 90%;
+
   li {
     display: flex;
     align-items: center;
