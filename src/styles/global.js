@@ -27,6 +27,10 @@ button{
     border: 0;
 }
 
+button:hover {
+    border: 2px solid var(--color-grey-6);
+}
+
 :root {
   --color-brand-1: #B993D6;
   --color-brand-2: #8CA6DB;

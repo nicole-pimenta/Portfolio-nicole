@@ -1,29 +1,9 @@
-import { useEffect, useRef } from "react";
-import Typed from "typed.js";
 import ideaGif from "../../assets/idea.gif";
 import { StyledText1, StyledText2 } from "../../styles/typography";
-import { ContactContainer, SectionContainer } from "./style";
+import { BsEnvelopePaperFill, BsGithub, BsLinkedin } from "react-icons/bs";
+import { ContactContainer, SectionContainer, ContainerIcons } from "./style";
 
 const Contact = () => {
-  const el = useRef(null);
-  const typed = useRef(null);
-
-  useEffect(() => {
-    const options = {
-      strings: ["nicole.pimenta.dev@gmail.com"],
-      typeSpeed: 120,
-      backSpeed: 50,
-      backDelay: 1500,
-      loop: true,
-    };
-
-    typed.current = new Typed(el.current, options);
-
-    return () => {
-      typed.current.destroy();
-    };
-  }, []);
-
   return (
     <ContactContainer id="contact">
       <StyledText1> Contato </StyledText1>
@@ -33,9 +13,36 @@ const Contact = () => {
 
         <img src={ideaGif} />
 
-        <StyledText2> Contacte me pelo: </StyledText2>
+        <StyledText2> Contacte me por: </StyledText2>
 
-        <span ref={el} />
+        <ContainerIcons>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/nicole-pimenta/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsLinkedin size={30} color="#343a40" />
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://github.com/nicole-pimenta"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub size={30} color="#343a40" />
+            </a>
+          </li>
+
+          <li>
+            {" "}
+            <a href="mailto:nicole.pimenta.dev@gmail.com">
+              <BsEnvelopePaperFill size={30} color="#343a40" />
+            </a>
+          </li>
+        </ContainerIcons>
       </SectionContainer>
     </ContactContainer>
   );

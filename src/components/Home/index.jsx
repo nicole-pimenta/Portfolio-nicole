@@ -1,17 +1,18 @@
 import { useEffect, useRef } from "react";
-import { BsEnvelopePaperFill, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsDownload } from "react-icons/bs";
+
 import Typed from "typed.js";
 import handShake from "../../assets/handshake.gif";
 import profile from "../../assets/profile.jpg";
 import { StyledText1, StyledTitle1 } from "../../styles/typography";
 import {
   HomeContainer,
-  ContainerIcons,
   StyledGif,
   StyledHeadline,
   StyledImageProfile,
   StyledTypedContainer,
   StyledTypedText,
+  DownloadButton,
 } from "./style";
 
 import cv from "../../assets/_CV_Fullstack_NicolePimenta.pdf";
@@ -54,34 +55,13 @@ const Home = () => {
         <StyledTypedContainer>
           <StyledTypedText ref={el} />
         </StyledTypedContainer>
-        <ContainerIcons>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/nicole-pimenta/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <BsLinkedin size={50} color="#343a40" />
-            </a>
-          </li>
 
-          <li>
-            <a
-              href="https://github.com/nicole-pimenta"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <BsGithub size={50} color="#343a40" />
-            </a>
-          </li>
-
-          <li>
-            {" "}
-            <a href={cv} target="_blank" rel="noreferrer">
-              <BsEnvelopePaperFill size={50} color="#343a40" />
-            </a>
-          </li>
-        </ContainerIcons>
+        <DownloadButton>
+          <BsDownload size={20} color="white" />
+          <a href={cv} download>
+            Baixar currículo
+          </a>
+        </DownloadButton>
       </StyledHeadline>
 
       <StyledImageProfile>

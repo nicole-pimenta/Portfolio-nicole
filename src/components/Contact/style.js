@@ -54,3 +54,17 @@ export const SectionContainer = styled.section`
     }
   }
 `;
+
+export const ContainerIcons = styled.ul`
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  width: 160px;
+
+  @media only screen and (max-width: 600px) {
+    width: 95%;
+    font-size: 30;
+    padding: 40px;
+  }
+`;

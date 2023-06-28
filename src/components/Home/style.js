@@ -24,6 +24,25 @@ export const StyledGif = styled.img`
   width: 70px;
 `;
 
+export const DownloadButton = styled.button`
+  height: 60px;
+  width: 220px;
+  color: white;
+  background-color: var(--background-2);
+  -webkit-box-shadow: 10px 10px 18px -7px rgba(0, 0, 0, 0.75);
+
+  box-shadow: 10px 10px 18px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  font-size: var(--title-4);
+  font-weight: 400;
+
+  a {
+    color: inherit;
+    width: 50%;
+    margin-left: 20px;
+  }
+`;
+
 export const StyledTypedText = styled.p`
   font-family: "Finger Paint", cursive;
   font-size: var(--text-1);
@@ -92,7 +111,7 @@ export const ContainerIcons = styled.ul`
   align-items: center;
   justify-content: space-around;
   height: 80px;
-  width: 50%;
+  width: 160px;
 
   @media only screen and (max-width: 600px) {
     width: 95%;
