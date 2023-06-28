@@ -1,20 +1,43 @@
 import { StyledText1 } from "../../styles/typography";
-import { ContainerProjects, SectionProjects, StyledProject } from "./style";
+import {
+  ProjectsContainer,
+  GridProjects,
+  StyledProject,
+  GithubButton,
+} from "./style";
+import project1 from "../../assets/projeto1.png";
+import project2 from "../../assets/projeto2.png";
+
+import { BsGithub } from "react-icons/bs";
 
 const Projects = () => {
   return (
-    <SectionProjects id="projects">
-      <div className="container">
-        <StyledText1>Projetos</StyledText1>
+    <ProjectsContainer ProjectsContainer id="projects">
+      <StyledText1>Projetos</StyledText1>
 
-        <ContainerProjects>
-          <StyledProject></StyledProject>
-          <StyledProject></StyledProject>
-          <StyledProject></StyledProject>
-          <StyledProject></StyledProject>
-        </ContainerProjects>
-      </div>
-    </SectionProjects>
+      <GridProjects>
+        <StyledProject>
+          <p> YourBudget</p>
+
+          <section>
+            <img src={project1} alt="" />
+          </section>
+        </StyledProject>
+
+        <StyledProject>
+          <p>BooksList</p>
+
+          <section>
+            <img src={project2} alt="" />
+          </section>
+        </StyledProject>
+      </GridProjects>
+
+      <GithubButton>
+        <BsGithub size={20} color="white" />
+        <a>Veja Mais</a>
+      </GithubButton>
+    </ProjectsContainer>
   );
 };
 
