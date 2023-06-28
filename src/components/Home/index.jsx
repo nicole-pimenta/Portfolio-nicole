@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
 import { BsDownload } from "react-icons/bs";
-
 import Typed from "typed.js";
 import handShake from "../../assets/handshake.gif";
 import profile from "../../assets/profile.jpg";
@@ -15,7 +14,7 @@ import {
   DownloadButton,
 } from "./style";
 
-import cv from "../../assets/_CV_Fullstack_NicolePimenta.pdf";
+import cv from "../../assets/NicolePimentaCV.pdf";
 
 const Home = () => {
   const el = useRef(null);

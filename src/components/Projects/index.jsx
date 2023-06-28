@@ -35,7 +35,9 @@ const Projects = () => {
 
       <GithubButton>
         <BsGithub size={20} color="white" />
-        <a>Veja Mais</a>
+        <a href="https://github.com/nicole-pimenta" target="_blank">
+          Veja Mais
+        </a>
       </GithubButton>
     </ProjectsContainer>
   );
