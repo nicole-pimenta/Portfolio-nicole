@@ -45,8 +45,8 @@ export const DownloadButton = styled.button`
 
 export const StyledTypedText = styled.p`
   font-family: "Finger Paint", cursive;
-  font-size: var(--text-1);
-  font-weight: 500;
+  font-size: var(--text-2);
+  font-weight: 400;
   line-height: 2.5rem;
   color: var(--background-2);
   text-align: center;

@@ -24,7 +24,7 @@ export const ContainerHeader = styled.div`
 `;
 
 export const StyledNavBar = styled.nav`
-  width: 50%;
+  width: 45%;
   padding: 20px;
 
   ul {
@@ -36,14 +36,14 @@ export const StyledNavBar = styled.nav`
   li,
   a {
     color: var(--color-grey-3);
-    font-size: var(--text-1);
+    font-size: var(--text-2);
     font-weight: 400;
-    line-height: 2.25rem;
+
     border: 2px solid transparent;
   }
 
   li:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid var(--color-grey-3);
     cursor: pointer;
   }
 

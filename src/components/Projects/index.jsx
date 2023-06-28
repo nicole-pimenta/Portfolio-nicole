@@ -1,4 +1,4 @@
-import { StyledText1 } from "../../styles/typography";
+import { StyledText1, StyledText3 } from "../../styles/typography";
 import {
   ProjectsContainer,
   GridProjects,
@@ -17,7 +17,7 @@ const Projects = () => {
 
       <GridProjects>
         <StyledProject>
-          <p> YourBudget</p>
+          <StyledText3> YourBudget</StyledText3>
 
           <section>
             <img src={project1} alt="" />
@@ -25,7 +25,7 @@ const Projects = () => {
         </StyledProject>
 
         <StyledProject>
-          <p>BooksList</p>
+          <StyledText3>BooksList</StyledText3>
 
           <section>
             <img src={project2} alt="" />

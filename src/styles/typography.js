@@ -3,15 +3,18 @@ import styled from "styled-components";
 export const StyledTitle1 = styled.h1`
   font-family: "Finger Paint", cursive;
   font-size: var(--title-1);
-  font-weight: 600;
-  line-height: 4.5rem;
+  font-weight: 500;
+  line-height: 3.5rem;
   color: var(--color-grey-1);
 `;
 
 export const StyledTitle2 = styled.h2`
-  font-size: var(--title-2);
-  font-weight: 600;
-  line-height: 3.75rem;
+  font-family: "Finger Paint", cursive;
+  font-size: var(--text-2);
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: var(--color-grey-1);
+  text-align: center;
 `;
 
 export const StyledTitle3 = styled.h3`

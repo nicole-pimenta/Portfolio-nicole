@@ -4,7 +4,7 @@ import { BsDownload } from "react-icons/bs";
 import Typed from "typed.js";
 import handShake from "../../assets/handshake.gif";
 import profile from "../../assets/profile.jpg";
-import { StyledText1, StyledTitle1 } from "../../styles/typography";
+import { StyledTitle1, StyledTitle2 } from "../../styles/typography";
 import {
   HomeContainer,
   StyledGif,
@@ -44,11 +44,11 @@ const Home = () => {
   return (
     <HomeContainer id="home">
       <StyledHeadline>
-        <StyledText1>
+        <StyledTitle2>
           Olá !
           <StyledGif src={handShake} align="center" />
           Meu nome é
-        </StyledText1>
+        </StyledTitle2>
 
         <StyledTitle1>Nicole Pimenta</StyledTitle1>
 
