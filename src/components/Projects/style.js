@@ -70,18 +70,19 @@ export const StyledProject = styled.div`
 export const GithubButton = styled.button`
   height: 60px;
   width: 220px;
-  color: white;
+  color: var(--color-grey-6);
   background-color: var(--background-2);
   -webkit-box-shadow: 10px 10px 18px -7px rgba(0, 0, 0, 0.75);
 
   box-shadow: 10px 10px 18px -7px rgba(0, 0, 0, 0.75);
-  border-radius: 4px;
-  font-size: var(--title-4);
-  font-weight: 400;
+  border-radius: 50px;
+  font-size: var(--text-2);
+  font-weight: 300;
+  padding: 10px;
 
   a {
     color: inherit;
     width: 50%;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 `;

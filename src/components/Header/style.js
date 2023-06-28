@@ -7,9 +7,9 @@ export const StyledHeader = styled.header`
   z-index: 1020;
   width: 100vw;
   background-color: var(--background-2);
-  -webkit-box-shadow: 10px 10px 18px -7px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 18px -7px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 18px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 10px -7px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 10px 10px 10px -7px rgba(0, 0, 0, 0.35);
+  box-shadow: 10px 10px 10px -6px rgba(0, 0, 0, 0.35);
 
   @media only screen and (max-width: 1024px) {
     height: 100%;
