@@ -46,8 +46,8 @@ button:hover {
   --title-1: 3rem;
   --title-2: 2.5rem;
   --title-3: 2rem;
-  --text-1: 1.5rem;
-  --text-2: 1.25rem;
+  --text-1: 1.75rem;
+  --text-2: 1.3rem;
   --text-3: 0.875rem;
 }
 

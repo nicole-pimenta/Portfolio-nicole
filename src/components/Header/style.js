@@ -25,7 +25,6 @@ export const ContainerHeader = styled.div`
 
 export const StyledNavBar = styled.nav`
   width: 45%;
-  padding: 20px;
 
   ul {
     display: flex;
@@ -35,9 +34,9 @@ export const StyledNavBar = styled.nav`
 
   li,
   a {
-    color: var(--color-grey-3);
+    color: var(--color-grey-6);
     font-size: var(--text-2);
-    font-weight: 400;
+    font-weight: 500;
 
     border: 2px solid transparent;
   }
@@ -48,18 +47,12 @@ export const StyledNavBar = styled.nav`
   }
 
   @media only screen and (max-width: 800px) {
-    ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
+    width: 75%;
+    justify-content: center;
 
     a {
-      font-size: var(--text-2);
-      font-weight: 500;
       line-height: 1rem;
-      color: var(--color-grey-6);
+      font-size: var(--text-3);
     }
   }
 `;
