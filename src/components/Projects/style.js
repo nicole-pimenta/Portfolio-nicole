@@ -21,52 +21,6 @@ export const ProjectsContainer = styled.div`
   }
 `;
 
-export const GridProjects = styled.div`
-  width: 90%;
-  height: 100%;
-  padding: 20px;
-  display: flex;
-
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-
-  @media only screen and (max-width: 913px) {
-    width: 100%;
-  }
-`;
-
-export const StyledProject = styled.div`
-  background-color: var(--background-2);
-  box-shadow: 0 3px 6px #0003;
-  width: 50%;
-  height: 400px;
-
-  border-radius: 5px;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-
-  section {
-    height: 90%;
-
-    padding: 20px;
-
-    img {
-      height: 100%;
-      width: 100%;
-      border-radius: 5px;
-      box-shadow: 0 3px 6px #0003;
-    }
-  }
-  @media only screen and (max-width: 913px) {
-    width: 90%;
-    height: 20%;
-  }
-`;
-
 export const GithubButton = styled.button`
   height: 60px;
   width: 220px;
